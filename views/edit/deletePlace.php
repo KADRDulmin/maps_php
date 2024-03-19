@@ -1,5 +1,6 @@
 <?php
-require_once '../../config.php';
+require_once '../../db/config.php';
+
  
 // Escape user inputs for security
 $id = mysqli_real_escape_string($link, $_REQUEST['id']);
